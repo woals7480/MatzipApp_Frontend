@@ -1,16 +1,9 @@
 import React from 'react';
 import {StackScreenProps} from '@react-navigation/stack';
-import {
-  Button,
-  Dimensions,
-  Image,
-  SafeAreaView,
-  StyleSheet,
-  View,
-} from 'react-native';
-import {AuthStackParamList} from '../../navigations/stack/AuthStackNavigator';
-import {authNavigations} from '../../constants';
-import CustomButton from '../../components/CustomButton';
+import {Dimensions, Image, SafeAreaView, StyleSheet, View} from 'react-native';
+import {authNavigations} from '@/constants';
+import CustomButton from '@/components/CustomButton';
+import {AuthStackParamList} from '@/navigations/stack/AuthStackNavigator';
 
 type AuthHomeScreenProps = StackScreenProps<
   AuthStackParamList,
